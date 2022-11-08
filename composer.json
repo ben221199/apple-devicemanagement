@@ -1,0 +1,30 @@
+{
+  "name": "ben221199/apple-devicemanagement",
+  "type": "library",
+  "description": "Manage your organization’s devices remotely.",
+  "keywords":[
+    "api",
+    "apple",
+    "composer",
+    "devicemanagement",
+    "mdm",
+    "php"
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "php": "^7||^8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7||^8||^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ben221199\\Apple\\DeviceManagement\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ben221199\\Apple\\DeviceManagement\\Tests\\": "tests/"
+    }
+  }
+}
